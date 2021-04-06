@@ -6,11 +6,12 @@ using namespace std;
 
 int main(){
     int a,b,i;
-    int j,c;
-    a = 4 ;
+    int j,c,d;
+    a = 0 ;
+    print("Enter A Number:");
+    scanf("%d", &d);
 
-
-    for (i=1 ; i <= 16 ; i++)
+    for (i=1 ; i <= d ; i++)
     {
         b = a+i;
         for (j=1 ; j <= 10 ; j++)
